@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "prettier",
+    "prettier/@typescript-eslint",
+    "plugin:@typescript-eslint/recommended",
+    "@geekhive/eslint-config-standard"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"]
+  }
+}
